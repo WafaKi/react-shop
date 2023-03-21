@@ -1,0 +1,23 @@
+.navbar{
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #0295DB;
+    z-index: 2;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.5s all;
+}
+
+.navbar a:hover{
+    color: #bbbbbb;
+    transform: scale(1.02);
+}
